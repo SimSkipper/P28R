@@ -24,7 +24,7 @@
         <label>
             <input type="checkbox" name="">
             <i></i>
-            <span>All Switches: OFF</span>
+            <span>Avionics/Switches: OFF</span>
         </label>
         <label>
             <input type="checkbox" name="">
@@ -34,7 +34,7 @@
         <label>
             <input type="checkbox" name="">
             <i></i>
-            <span>Magnetos: OFF</span>
+            <span>Magneto Switch: OFF</span>
         </label>
         <label>
             <input type="checkbox" name="">
@@ -103,8 +103,8 @@
         </label>     
     </div>
 
-    <div class="list">
-        <h2>Engine Start (Normal)</h2>
+        <div class="list">
+        <h2>Before Engine Start</h2>
         <label>
             <input type="checkbox" name="">
             <i></i>
@@ -118,8 +118,17 @@
         <label>
             <input type="checkbox" name="">
             <i></i>
-            <span>Fuel Selector: LEFT/RIGHT</span>
+            <span>Propeller: FULL FWD</span>
         </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Fuel Selector: DESIRED TANK</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Engine Start (Normal)</h2>
         <label>
             <input type="checkbox" name="">
             <i></i>
@@ -148,7 +157,7 @@
         <label>
             <input type="checkbox" name="">
             <i></i>
-            <span>Mixture: FULL RICH 3s/CUT OFF</span>
+            <span>Mixture: RICH 3s/CUT OFF</span>
         </label>
         <label>
             <input type="checkbox" name="">
@@ -163,7 +172,7 @@
         <label>
             <input type="checkbox" name="">
             <i></i>
-            <span>Mixture: FULL RICH</span>
+            <span>Mixture: RICH</span>
         </label>
         <label>
             <input type="checkbox" name="">
@@ -174,6 +183,11 @@
             <input type="checkbox" name="">
             <i></i>
             <span>Throttle: 1400-1500</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Oil Pressure: Positive in 30s</span>
         </label>
         <label>
             <input type="checkbox" name="">
@@ -199,6 +213,11 @@
             <input type="checkbox" name="">
             <i></i>
             <span>Transponder: SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Altimeter: SET QNH</span>
         </label>
         <label>
             <input type="checkbox" name="">
@@ -236,6 +255,165 @@
             <span>Pitot Heat: ON/AS REQ</span>
         </label>
     </div>
-    
+
+    <div class="list">
+        <h2>Taxi</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>ATC: Clearance</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Parking Brake: OFF</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Take Off/Climb</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Throttle: FULL</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Rotate: 70 KIAS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Gear: UP</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Climb: 79 KIAS-97 KIAS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Flaps: UP (Before 111 KIAS)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Fuel Pump: OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Climb Power: 2450 RPM/ 104 KIAS</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Transition Altitude: STD 1013</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Cruise</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Mixture: Reduce above 3000ft</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Speed: 2200-2500 RPM</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Approach/Landing</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Fuel Selector: FULLEST</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Fuel Pump: ON</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Mixture: SET</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Prop: FULL FWD</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Gear: DOWN (Max 129 KIAS)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Flaps: SET (Max 103 KIAS)</span>
+        </label>
+    </div>
+
+    <div class="list">
+        <h2>Shutdown</h2>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Flaps: RETRACT</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Fuel Pump: OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Avionics: OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Switches: OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Propeller: Full FWD</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Throttle: CLOSED</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Mixture: IDLE CUT OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Magnetos: OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Alternator: OFF</span>
+        </label>
+        <label>
+            <input type="checkbox" name="">
+            <i></i>
+            <span>Battery Master: OFF</span>
+        </label>
+    </div>
 </body>
 </html>
